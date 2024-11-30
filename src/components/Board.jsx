@@ -32,7 +32,7 @@ const Board = ({ bets }) => {
 
   return (
     <div
-      className="relative grid grid-cols-10 gap-2 sm:gap-4 md:gap-6 lg:gap-8 p-4 sm:p-6 md:p-8 rounded-xl shadow-xl mb-6"
+      className="relative grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 gap-1 sm:gap-2 p-2 sm:p-4 rounded-xl shadow-xl mb-6"
       style={{
         background: "radial-gradient(circle, #6a0dad, #fbbf24)",
         boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.2)",
