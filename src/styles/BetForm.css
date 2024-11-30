@@ -1,0 +1,10 @@
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #ff0000; }
+    50% { box-shadow: 0 0 20px #ff6600; }
+    100% { box-shadow: 0 0 5px #ff0000; }
+  }
+  
+  .number-cell:hover {
+    animation: glowing 1.5s infinite;
+  }
+  
